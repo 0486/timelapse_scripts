@@ -22,20 +22,24 @@
 
 #### Debian/Ubuntu
 ```bash
-sudo dnf install dcraw ffmpeg parallel ImageMagick```
+sudo dnf install dcraw ffmpeg parallel ImageMagick
+```
 
 #### Fedora
 ```bash
-sudo dnf install dcraw ffmpeg parallel ImageMagick```
+sudo dnf install dcraw ffmpeg parallel ImageMagick
+```
 
 #### Arch Linux
 ```bash
-sudo pacman -S dcraw ffmpeg parallel imagemagick```
+sudo pacman -S dcraw ffmpeg parallel imagemagick
+```
 
 ## Використання
 ### Загальний формат команди
 ```bash
-./timelapse.sh [1080p|2k|4k|5k] [crf (необов'язково)] [відеофільтри (необов'язково)] [--autowb]```
+./timelapse.sh [1080p|2k|4k|5k] [crf (необов'язково)] [відеофільтри (необов'язково)] [--autowb]
+```
 
 ## Параметри
 
@@ -55,15 +59,18 @@ sudo pacman -S dcraw ffmpeg parallel imagemagick```
 
 ### Конвертація з автоматичним балансом білого у 4K
 ```bash
-./timelapse.sh 4k 20 --autowb```
+./timelapse.sh 4k 20 --autowb
+```
 
 ### Конвертація у Full HD без додаткових опцій
 ```bash
-./timelapse.sh```
+./timelapse.sh
+```
 
 ### Конвертація у 2k з підвищенням контрасту чіткості та колірності
 ```bash
-./timelapse.sh 2k 23 "eq=saturation=1.5:contrast=1.3:brightness=0.1,unsharp"```
+./timelapse.sh 2k 23 "eq=saturation=1.5:contrast=1.3:brightness=0.1,unsharp"
+```
 
 ## Авторські Права
 (C) Rostyslav Golda 2024, (C) OpenAI 2024
