@@ -41,7 +41,7 @@ sudo pacman -S dcraw ffmpeg parallel imagemagick
 ## Використання
 ### Загальний формат команди
 ```bash
-./timelapse.sh [1080p|2k|4k|5k] [crf (необов'язково)] [відеофільтри (необов'язково)] [--autowb]
+./make_timelapse.sh [1080p|2k|4k|5k] [crf (необов'язково)] [відеофільтри (необов'язково)] [--autowb]
 ```
 
 ## Параметри
@@ -62,17 +62,17 @@ sudo pacman -S dcraw ffmpeg parallel imagemagick
 
 ### Конвертація з автоматичним балансом білого у 4K
 ```bash
-./timelapse.sh 4k 20 --autowb
+./make_timelapse.sh 4k 20 --autowb
 ```
 
 ### Конвертація у Full HD без додаткових опцій
 ```bash
-./timelapse.sh
+./make_timelapse.sh
 ```
 
 ### Конвертація у 2k з підвищенням контрасту чіткості та колірності
 ```bash
-./timelapse.sh 2k 23 "eq=saturation=1.5:contrast=1.3:brightness=0.1,unsharp"
+./make_timelapse.sh 2k 23 "eq=saturation=1.5:contrast=1.3:brightness=0.1,unsharp"
 ```
 
 ## Авторські Права
